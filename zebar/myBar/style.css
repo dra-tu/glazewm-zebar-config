@@ -1,0 +1,133 @@
+/**
+ * Import the Nerdfonts icon font.
+ * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
+ */
+@import 'https://www.nerdfonts.com/assets/css/webfont.css';
+/*@import './themes/B&O.css';*/
+ /*@import './themes/chatgpt1.css'; */
+ /*@import './themes/cyberpunk.css';*/
+/* @import './themes/dev-colors.css';*/
+ /*@import './themes/forest-night.css';*/
+ /*@import './themes/material-light.css';*/
+/* @import './themes/miasma.css';*/
+ /*@import './themes/retro-neon.css';*/
+ @import './themes/solarized-dark.css';
+
+body {
+  font-family: var(--font-family);
+  font-size: 12px;
+  overflow: hidden;
+}
+
+div,
+span,
+p {
+  cursor: default;
+  user-select: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  --width: 30px;
+  font-size: 13px;
+}
+
+.app {
+  background-image: linear-gradient(var(--background-angle), var(--background-step0), var(--background-step1));
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+  width: var(--width);
+}
+
+.top, .middle, .bottom {
+  display: flex;
+  width: inherit;
+  flex-direction: column;
+}
+
+.tiling-direction,
+.battery {
+  margin-right: 20px;
+}
+
+.element {
+  background: var(--element-backgound);
+  color: var(--element-text-color);
+
+  border: none;
+
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  width: var(--width);
+
+  &.focusable {
+    cursor: var(--element-hover-cursor);
+    &:hover {
+      background-color: var(--element-hover-backgound);
+    }
+  }
+}
+
+.logo {
+  color: var(--icon-color);
+  height: 30px;
+  width: 30px;
+  padding: 2px;
+  text-align: center;
+  font-size: 24px;
+
+  &.small {
+    font-size: 20px;
+  }
+}
+
+.workspaces {
+  display: flex;
+  flex-direction: column;
+}
+
+.focused-workspace {
+  background: var(--focused-workspace-backgound);
+  border-right: var(--focused-workspace-highlight) solid 3px;
+}
+
+.date-time {
+  font-size: 13px;
+}
+.date-day {color: var(--date-day-color);}
+.date-month {color: var(--date-month-color);}
+.date-year {color: var(--date-year-color);}
+.time-hour {color: var(--time-hour-color);}
+.time-minute {color: var(--time-minute-color);}
+
+.battery {
+  position: relative;
+}
+
+.battery .charging-icon {
+  position: absolute;
+  font-size: 7px;
+  left: -8px;
+  top: 3px;
+}
+
+.bar-border {
+  width: var(--width) - 4;
+  height: 13px;
+  background-color: var(--bar-background);
+}
+.bar {
+  height: inherit;
+  color: black;
+  background-image: linear-gradient(to right, var(--bar-fill-step0), var(--bar-fill-step1));
+}

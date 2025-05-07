@@ -1,0 +1,28 @@
+:root {
+    --background-angle: 135deg;
+    --background-step0: #0b3d0b;
+    --background-step1: #1a472a;
+  
+    --font-family: "Fira Code", monospace;
+  
+    --element-backgound: #1f3322;
+    --element-text-color: #d9ffcc;
+    --element-hover-cursor: pointer;
+    --element-hover-backgound: #2e5939;
+  
+    --icon-color: #aaffaa;
+  
+    --focused-workspace-backgound: #2e8b57;
+    --focused-workspace-highlight: #98fb98;
+  
+    --date-day-color: #ccffcc;
+    --date-month-color: #66ff66;
+    --date-year-color: #99ff99;
+    --time-hour-color: #b2d8b2;
+    --time-minute-color: #aaffaa;
+  
+    --bar-background: #0b3d0b;
+    --bar-fill-step0: #66bb6a;
+    --bar-fill-step1: #2e7d32;
+  }
+  

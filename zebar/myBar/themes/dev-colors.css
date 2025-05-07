@@ -1,0 +1,27 @@
+:root {
+    --background-angle: 0deg;
+    --background-step0: #483282;
+    --background-step1: #14086b;
+
+    --font-family: ui-monospace, monospace;
+
+    --element-backgound: rgb(255 255 255 / 15%);
+    --element-text-color: rgb(255 255 255 / 90%);
+    --element-hover-cursor: pointer;
+    --element-hover-backgound: #dc622f;
+
+    --icon-color: rgb(115 130 175 / 95%);
+
+    --focused-workspace-backgound: #8e320a;
+    --focused-workspace-highlight: green;
+
+    --date-day-color: orchid;
+    --date-month-color: yellow;
+    --date-year-color: #777777;
+    --time-hour-color: red;
+    --time-minute-color: green;
+
+    --bar-background: gray;
+    --bar-fill-step0: red;
+    --bar-fill-step1: orange;
+}

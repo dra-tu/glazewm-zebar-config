@@ -1,0 +1,27 @@
+:root {
+    --background-angle: 180deg;
+    --background-step0: #1e1f29;
+    --background-step1: #232530;
+  
+    --font-family: "JetBrains Mono", monospace;
+  
+    --element-backgound: #2a2e38;
+    --element-text-color: #cbe3e7;
+    --element-hover-cursor: pointer;
+    --element-hover-backgound: #3c3f4a;
+  
+    --icon-color: #ffb964;
+  
+    --focused-workspace-backgound: #5fb3b3;
+    --focused-workspace-highlight: #a6c1e0;
+  
+    --date-day-color: #ec5f67;
+    --date-month-color: #99c794;
+    --date-year-color: #cbe3e7;
+    --time-hour-color: #fac863;
+    --time-minute-color: #5fb3b3;
+  
+    --bar-background: #1e1f29;
+    --bar-fill-step0: #c594c5;
+    --bar-fill-step1: #6699cc;
+  }

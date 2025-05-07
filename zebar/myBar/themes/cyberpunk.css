@@ -1,0 +1,28 @@
+:root {
+    --background-angle: 180deg;
+    --background-step0: #0d0d0d;
+    --background-step1: #1a1a1a;
+  
+    --font-family: "Orbitron", sans-serif;
+  
+    --element-backgound: #141414;
+    --element-text-color: #f0f0f0;
+    --element-hover-cursor: pointer;
+    --element-hover-backgound: #333333;
+  
+    --icon-color: #39ff14;
+  
+    --focused-workspace-backgound: #ff0055;
+    --focused-workspace-highlight: #00ffff;
+  
+    --date-day-color: #ff0090;
+    --date-month-color: #00ffff;
+    --date-year-color: #ffffff;
+    --time-hour-color: #ff3300;
+    --time-minute-color: #39ff14;
+  
+    --bar-background: #000000;
+    --bar-fill-step0: #ff0055;
+    --bar-fill-step1: #00ffff;
+  }
+  
