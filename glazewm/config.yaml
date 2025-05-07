@@ -213,11 +213,7 @@ keybindings:
 
   # Change focus from tiling windows -> floating -> fullscreen.
   - commands: ['wm-cycle-focus']
-    bindings: ['alt+space']
-
-  # Change the focused window to be floating.
-  - commands: ['toggle-floating --centered']
-    bindings: ['alt+shift+space']
+    bindings: ['alt+shift+t']
 
   # Change the focused window to be tiling.
   - commands: ['toggle-tiling']
@@ -250,10 +246,10 @@ keybindings:
   # Launch CMD terminal. Alternatively, use `shell-exec wt` or
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
-  - commands: ['shell-exec powershell']
-    bindings: ['alt+enter']
-  - commands: ['shell-exec openSUSE-Tumbleweed']
-    bindings: ['alt+shift+enter']
+  - commands: ['shell-exec wt powershell']
+    bindings: ['alt+space']
+  - commands: ['shell-exec wt openSUSE-Tumbleweed']
+    bindings: ['alt+Shift+space']
 
   # Focus the next/previous active workspace defined in `workspaces` config.
   - commands: ['focus --next-active-workspace']
