@@ -15,14 +15,16 @@
     --focused-workspace-backgound: #268bd2;
     --focused-workspace-highlight: #2aa198;
   
-    --date-day-color: #cb4b16;
-    --date-month-color: #859900;
+    --date-day-color: white;
+    --date-month-color: #affeff;
     --date-year-color: #839496;
-    --time-hour-color: #dc322f;
-    --time-minute-color: #6c71c4;
-  
+	
+	--time-hour-color: white;
+    --time-minute-color: #affeff;
+  	
+	--bar-text-color: #affeff;
     --bar-background: #002b36;
-    --bar-fill-step0: #268bd2;
-    --bar-fill-step1: #2aa198;
+    --bar-fill-step0: #584300;
+    --bar-fill-step1: #b58900;
   }
   

@@ -128,6 +128,6 @@ body,
 }
 .bar {
   height: inherit;
-  color: black;
+  color: var(--bar-text-color);
   background-image: linear-gradient(to right, var(--bar-fill-step0), var(--bar-fill-step1));
 }
