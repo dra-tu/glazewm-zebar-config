@@ -19,10 +19,10 @@
     --date-month-color: #affeff;
     --date-year-color: #839496;
 	
-	--time-hour-color: white;
+    --time-hour-color: white;
     --time-minute-color: #affeff;
   	
-	--bar-text-color: #affeff;
+    --bar-text-color: #affeff;
     --bar-background: #002b36;
     --bar-fill-step0: #584300;
     --bar-fill-step1: #b58900;
