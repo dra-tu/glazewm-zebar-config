@@ -166,6 +166,13 @@ binding_modes:
         bindings: ['escape', 'enter']
 
 keybindings:
+  # kill Zebar
+  - commands: ['shell-exec taskkill /IM zebar.exe /F']
+    bindings: ['alt+z+q']
+  # open Zebar
+  - commands: ['shell-exec zebar.exe']
+    bindings: ['alt+z+space']
+    
   # Shift focus in a given direction.
   - commands: ['focus --direction left']
     bindings: ['alt+h', 'alt+left']
