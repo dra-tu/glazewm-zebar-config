@@ -1,8 +1,0 @@
-[2m2025-04-30T04:23:52.587481Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
-[2m2025-04-30T06:28:59.581074Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2025-04-30T07:55:47.175993Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No workspace.
-[2m2025-05-01T12:44:14.138184Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
-[2m2025-05-05T09:31:49.062051Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m control characters are not allowed at position 8199
-[2m2025-05-05T09:31:53.112563Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m control characters are not allowed at position 8199
-[2m2025-05-21T16:36:01.529947Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Ungültiges Handle für den Monitor. (0x800705B5)
-[2m2025-05-23T04:11:07.373837Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No common ancestor between containers.
